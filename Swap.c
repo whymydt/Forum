@@ -15,7 +15,7 @@ void swapAddress(int *a, int *b) {
 int main() {
     int value1 = 10, value2 = 20;
 
-    printf("\n== Swap by Value ==\n");
+    printf("Swap by Value\n\n");
     printf("Nilai sebelum Swap by Value: \n");
     printf("Nilai value1 = %d\n", value1);
     printf("Nilai value2 = %d\n", value2);
@@ -24,19 +24,18 @@ int main() {
 
     printf("Nilai setelah Swap by Value: \n");
     printf("Nilai value1 = %d\n", value1);
-    printf("Nilai value2 = %d\n", value2);
+    printf("Nilai value2 = %d\n\n\n", value2);
 
     value1, value2;
 
-    printf("\n== Swap by Address ==\n");
+    printf("Swap by Address\n\n");
     printf("Nilai sebelum Swap by Address: \n");
     printf("Nilai value1 = %d\n", value1);
     printf("Nilai value2 = %d\n", value2);
 
-    // Memanggil fungsi swapAddress dengan pass-by-address
-    swapAddress(&value1, &value2);
+    swapAddress(&value1, &value2); // Swap nilai by address
 
-    printf("Setelah Pemanggilan fungsi Pass by Address: \n");
+    printf("Nilai setelah Swap by Address: \n");
     printf("Nilai value1 = %d\n", value1);
     printf("Nilai value2 = %d\n", value2);
 
