@@ -17,9 +17,9 @@ int main()
 
     while (option != 3)
         
-        printf("\n\033[1;32m==============================================\033[0m\n");
-        printf("\033[1;32m----------------- MENU -----------------\033[0m\n");
-        printf("\033[1;32m==============================================\033[0m\n");
+        printf("\n\033[1;32m===============================================\033[0m\n");
+        printf("\033[1;32mMenggunakan Array of Pointer of Dynamic Structure\033[0m\n");
+        printf("\033[1;32m===============================================\033[0m\n");
 
         printf("1. Input Data \n");
         printf("2. Tampilkan Data\n");
@@ -29,7 +29,7 @@ int main()
 
         if (pilihan == 1)
         {
-            // Meminta input dari user
+            // Input data dari user
             printf("Input ID     : ");
             scanf("%d", &mhs.id);
             printf("Input Nama   : ");
